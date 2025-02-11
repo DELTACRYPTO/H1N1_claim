@@ -1,0 +1,44 @@
+/* Centrer et styliser le titre */
+h1 {
+  text-align: center; /* Centre le texte horizontalement */
+  font-size: 3rem; /* Taille du texte du titre */
+  color: red; /* Couleur rouge pour le titre */
+  font-family: 'Arial', sans-serif; /* Police sans-serif pour un effet moderne */
+  font-weight: bold; /* Mettre le texte en gras */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Ombre portée pour un effet de profondeur */
+  margin-bottom: 20px; /* Espace sous le titre */
+}
+
+/* Style pour l'image */
+.virus-img {
+  width: 75%; /* Réduit la taille de l'image à 75% de sa largeur initiale */
+  max-width: 600px; /* Empêche l'image de devenir plus large que 600px */
+  height: auto; /* Garde les proportions de l'image intactes */
+  display: block;
+  margin: 0 auto; /* Centre l'image */
+}
+
+/* Style pour le bouton */
+.claim-btn {
+  background-color: red; /* Couleur de fond du bouton */
+  color: white; /* Couleur du texte du bouton */
+  font-size: 16px; /* Taille du texte */
+  padding: 15px 30px; /* Espacement interne (haut/bas et gauche/droite) */
+  border: none; /* Pas de bordure */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Curseur en forme de main */
+  display: block; /* Le bouton devient un bloc pour qu'il s'affiche sous l'image */
+  margin: 20px auto; /* Marges pour le centrer et le mettre en bas */
+}
+
+/* Style lorsque le bouton est survolé */
+.claim-btn:hover {
+  background-color: darkred; /* Change la couleur du bouton quand on passe la souris dessus */
+}
+
+/* Style pour la section d'information */
+.info {
+  text-align: center; /* Centrer le texte dans la section d'info */
+  margin-top: 30px; /* Espacement au-dessus de la section */
+}
+
