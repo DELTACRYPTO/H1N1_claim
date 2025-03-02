@@ -1,3 +1,4 @@
+WE ARE BASED#
 // Vérifie si MetaMask est installé
 if (typeof window.ethereum !== 'undefined') {
   console.log('MetaMask is installed!');
